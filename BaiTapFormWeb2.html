@@ -6,9 +6,16 @@
     </head>
     <body>
         <form style="background-color: rgb(255, 249, 194);">
-            <h1 style="color: blue;background-color: rgba(154, 253, 255, 0.788);">ĐĂNG KÝ HỌC VIÊN</h1>
-            <p style="color: blue;"> Họ và tên <input type="text" name="Yourname"></p>
-            <p style="color: blue;"> Ngày sinh <input type="number" name="Date"></p>
+            <table>
+                <h1 style="color: blue;background-color: rgba(154, 253, 255, 0.788);">ĐĂNG KÝ HỌC VIÊN</h1>
+                <tr>
+                    <td style="color: blue;"> Họ và tên </td>
+                    <td><input type="text" name="Yourname"></td>
+                </tr>
+            <tr>
+                <td style="color: blue;"> Ngày sinh </td>
+                <td> <input type="number" name="Date"> </td> 
+            </tr>
             <p style="color: blue;"> Giới tính
                 <input type="radio" name="rd">Nam
                 <input type="radio" name="rd">Nữ
@@ -37,6 +44,8 @@
                 <input type="submit" name="submit" value="Đăng Ký">
                 <input type="reset" name="reset" value="Nhập lại">
             </p>
+            </table>
+           
         </form>
     </body>
 </html>
